@@ -13,7 +13,7 @@ body {
     margin: auto;
 }
 
-a.button {
+.button {
     background-color: #0783ef;
     border-radius: 50px;
     color: white;
@@ -25,15 +25,14 @@ a.button {
     margin: 15px;
 }
 
-a.button:hover {
+.button:hover {
     box-shadow: 0 0 5px 0 rgb(0, 0, 0.5);
 }
 
-a.sasha {
+.sasha {
     background-color: red;
     border-radius: 50px;
     padding: 15px;
-    display: inline-block;
     margin: 15px;
     text-decoration: none;
     font-size: 15px;
@@ -41,6 +40,6 @@ a.sasha {
 
 }
 
-a.sasha:hover {
-    box-shadow: 0 0 4px 0 rgb(0, 0, 0.5);
+.sasha:hover {
+    box-shadow: 0 0 4px 0 black;
 }
